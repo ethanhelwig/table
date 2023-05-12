@@ -50,10 +50,3 @@ The `to_string()` function returns a formatted string of the table. The table is
 ```c++
 char* to_string();
 ```
-
-### Destructor
-The `table` class destructor frees the memory allocated for the table string and the column widths array.
-
-```c++
-~table();
-```
