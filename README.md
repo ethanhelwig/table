@@ -27,7 +27,8 @@ table profiles = table(arr, num_cols, num_rows);
 cout << profiles.to_string();
 ```
 Result:
-```+----+-------+------------+-------+
+```
++----+-------+------------+-------+
 | ID | Name  | City       | State |
 +----+-------+------------+-------+
 | 0  | Steve | Austin     | TX    |
