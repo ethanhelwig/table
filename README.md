@@ -27,6 +27,14 @@ table profiles = table(arr, num_cols, num_rows);
 cout << profiles.to_string();
 ```
 Result:
+```+----+-------+------------+-------+
+| ID | Name  | City       | State |
++----+-------+------------+-------+
+| 0  | Steve | Austin     | TX    |
+| 1  | John  | Charleston | SC    |
+| 2  | Alex  | Miami      | FL    |
++----+-------+------------+-------+
+```
 
 ### Constructor
 The constructor for the `table` class takes in a two-dimensional array of strings, as well as the number of rows and columns in the array. If the number of columns or rows is greater than the maximum allowed size, the constructor will return without initializing the class.

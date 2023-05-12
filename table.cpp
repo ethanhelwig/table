@@ -30,7 +30,7 @@ char* table::to_string() {
         // column width is longest string in that column
         for (row=0; row<this->num_rows; row++) {
             str_length = strlen(str_arr[col][row]);
-            this->column_width[col] = max(column_width[col], str_length);
+            this->column_width[col] = std::max(column_width[col], str_length);
         }
         this->table_width += this->column_width[col];
     }

@@ -3,7 +3,8 @@
 
 #include <stdint.h>
 #include <stdlib.h>
-#define max(a,b) ((a)>(b)?(a):(b))
+#include <math.h>
+//#define max(a,b) ((a)>(b)?(a):(b))
 
 class table {
     private:
