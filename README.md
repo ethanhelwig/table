@@ -5,6 +5,8 @@ The `table` class provides a way to display a two-dimensional array of strings i
 To use the `table` class, simply create an instance of the class and pass in a two-dimensional array of strings, as well as the number of rows and columns in the array. Then, call the `to_string()` function on the instance to get the formatted table as a string.
 
 ```c++
+#include "table.h"
+...
 size_t num_cols = 4;
 size_t num_rows = 4;
 
